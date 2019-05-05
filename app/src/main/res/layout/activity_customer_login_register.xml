@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondlog"
+    tools:context=".CustomerLoginRegisterActivity">
+
+    <ImageView
+        android:id="@+id/customer"
+        android:layout_width="105dp"
+        android:layout_height="137dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/cliente" />
+
+    <TextView
+        android:id="@+id/customer_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Connexion de la cliente"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_status"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_customer"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Mot de passe..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/customer_login_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/password_customer"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/screen_background_light"
+        android:text="Se connecter"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/register_customer_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_login_btn"
+        android:layout_marginLeft="110dp"
+        android:text="Vous n'avez pas de compte?"
+        android:textColor="@color/roseprononcee"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/customer_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_customer_link"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/screen_background_light"
+        android:text="S'inscrire"
+        android:textColor="@color/roseprononcee"
+        android:textSize="16sp" />
+
+</RelativeLayout>

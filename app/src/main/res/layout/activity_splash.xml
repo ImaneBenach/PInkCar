@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/pinkcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pinkcar"
+        android:layout_marginTop="310dp"/>
+
+    <TextView
+        android:id="@+id/tv_imane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinkcar"
+        android:text="By Imane Benachour"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/roseprononcee"/>
+
+    <TextView
+        android:id="@+id/tv_pinkcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_imane"
+        android:text="Pink Car ©"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/blanc"
+        android:textSize="36dp"/>
+
+</RelativeLayout>

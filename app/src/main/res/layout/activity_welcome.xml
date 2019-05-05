@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/pinkcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pinkcar"
+        android:layout_marginTop="310dp"/>
+
+    <Button
+        android:id="@+id/welcome_driver_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pinkcar"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:gravity="center"
+        android:text="CONDUCTRICE"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/welcome_customer_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/welcome_driver_btn"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/roseclair"
+        android:text="CLIENTE"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+</RelativeLayout>

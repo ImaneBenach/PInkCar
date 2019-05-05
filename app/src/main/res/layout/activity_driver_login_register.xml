@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondlog"
+    tools:context=".DriverLoginRegisterActivity">
+
+    <ImageView
+        android:id="@+id/driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/car"
+        android:layout_marginTop="127dp"/>
+
+    <TextView
+        android:id="@+id/driver_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/driver"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-28dp"
+        android:text="Connexion de la conductrice"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/email_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/driver_status"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_driver"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Mot de passe..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/driver_login_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/password_driver"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/screen_background_light"
+        android:text="Se connecter"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/driver_register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/driver_login_btn"
+        android:layout_marginLeft="110dp"
+        android:text="Vous n'avez pas de compte?"
+        android:textColor="@color/roseprononcee"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/driver_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_light"
+        android:text="S'inscrire"
+        android:textColor="@color/roseprononcee"
+        android:textSize="16sp"
+        android:layout_below="@id/driver_login_btn"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

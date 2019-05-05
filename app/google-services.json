@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "695600615308",
+    "firebase_url": "https://pinkcarapp-75e4d.firebaseio.com",
+    "project_id": "pinkcarapp-75e4d",
+    "storage_bucket": "pinkcarapp-75e4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695600615308:android:a3de5dc5c9fd7011",
+        "android_client_info": {
+          "package_name": "imaneben.fr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695600615308-kudsufo57sdee8par4hnf2e4q273j2ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imaneben.fr",
+            "certificate_hash": "2d688a556646bd5c587aafbb34b7ab264bc10119"
+          }
+        },
+        {
+          "client_id": "695600615308-qaagpg74c7nn9nrlm3f83dpm6svbl996.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALYFKc4rSz2qJ3LBacvSdZJMKwaPgDv4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695600615308-qaagpg74c7nn9nrlm3f83dpm6svbl996.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
